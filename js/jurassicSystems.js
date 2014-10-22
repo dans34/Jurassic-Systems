@@ -457,7 +457,7 @@ jpTerminal.addCommand({
          $('#intro').click(function() {
             $(this).fadeOut(1000);
             $('#intro-scene').attr('src', '');
-            jpTerminal.playMainMusic();
+        <!--    jpTerminal.playMainMusic(); -->
          });
 
       }, 4500);
